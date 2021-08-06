@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/packages/alert_dialogs/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/alert_dialogs/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/auth_widget_builder/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/auth_widget_builder/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/custom_buttons/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/custom_buttons/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/email_password_sign_in_ui/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/email_password_sign_in_ui/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/firebase_auth_service/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/firebase_auth_service/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/firestore_service/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/firestore_service/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/google_sign_in_service/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/google_sign_in_service/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/string_validators/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/string_validators/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/utils/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/utils/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/utils/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>
