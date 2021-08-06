@@ -1,20 +1,21 @@
-name: utils
+name: fk_onboarding
 description: Package for Filip Kowalski's projects
 version: 0.0.1
 author: Filip Kowalski
 homepage: filippkowalski.com
 publish_to: none
 
+
 environment:
   sdk: ">=2.7.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
-  crypto: ^3.0.1
-
-  flutter:
+ flutter:
     sdk: flutter
 
+ scrolling_page_indicator: ^0.1.1
+ 
 dev_dependencies:
   flutter_test:
     sdk: flutter

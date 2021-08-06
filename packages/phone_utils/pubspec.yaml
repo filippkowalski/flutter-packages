@@ -1,0 +1,22 @@
+name: phone_utils
+description: Package for Filip Kowalski's projects
+version: 0.0.2
+author: Filip Kowalski
+homepage: filippkowalski.com
+publish_to: none
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  crypto: ^3.0.1
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

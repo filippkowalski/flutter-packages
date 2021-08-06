@@ -1,6 +1,6 @@
-part of utils;
+part of phone_utils;
 
-class HashGenerator {
+class PhoneHashGenerator {
   final _textSanitizer = TextSanitizer();
 
   String generateHash(String text) {
