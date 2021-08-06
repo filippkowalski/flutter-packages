@@ -10,7 +10,7 @@ class TextSanitizer {
   }
 
   String sanitizeArray(String text) {
-    return text.replaceAll('[', "").replaceAll(']', '').replaceAll(' ', '');
+    return text.replaceAll('[', '').replaceAll(']', '').replaceAll(' ', '');
   }
 
   String sanitizeAllSymbols(String text) {

@@ -1,13 +1,13 @@
 part of utils;
 
 class PhoneNumberRegex {
-  var _phoneSanitizer = TextSanitizer();
+  final _textSanitizer = TextSanitizer();
 
   bool validatePhoneNumber(String phone) {
-    var sanitizedPhone =
-        _phoneSanitizer.sanitizePhoneNumber(phone).replaceAll("+", "");
-    RegExp regExp = new RegExp(r'^[0-9]{8,13}$');
-    if (sanitizedPhone.length == 0 || !regExp.hasMatch(sanitizedPhone)) {
+    final sanitizedPhone =
+        _textSanitizer.sanitizePhoneNumber(phone).replaceAll('+', '');
+    final RegExp regExp = RegExp(r'^[0-9]{8,13}$');
+    if (sanitizedPhone.isEmpty || !regExp.hasMatch(sanitizedPhone)) {
       return false;
     } else {
       return true;
@@ -15,8 +15,8 @@ class PhoneNumberRegex {
   }
 
   String parsePhoneNumber(String phone, String countryCode) {
-    var sanitizedPhone = _phoneSanitizer.sanitizePhoneNumber(phone);
-    if (phone[0] != "+") {
+    final sanitizedPhone = _textSanitizer.sanitizePhoneNumber(phone);
+    if (phone[0] != '+') {
       return countryCode + sanitizedPhone;
     } else {
       return sanitizedPhone;
