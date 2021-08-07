@@ -1,4 +1,4 @@
-part of phone_utils;
+part of fk_phone_utils;
 
 class TextSanitizer {
   String sanitizePhoneNumber(String phone) {

@@ -1,4 +1,4 @@
-library phone_utils;
+library fk_phone_utils;
 
 import 'dart:convert';
 

@@ -6,5 +6,3 @@ import 'package:scrolling_page_indicator/scrolling_page_indicator.dart';
 
 part 'onboarding_page.dart';
 part 'onboarding_view_page.dart';
-part 'widget_colors.dart';
-part 'floating_button.dart';

@@ -1,4 +1,4 @@
-part of fk_onboarding;
+part of fk_common_ui;
 
 class WidgetColors {
   Color dotColor;
