@@ -2,9 +2,9 @@ part of fk_onboarding;
 
 class OnboardingPage extends StatefulWidget {
   final List<Widget> onboardingPages;
-  final WidgetColors widgetColors;
+  final AppTheme appTheme;
 
-  const OnboardingPage({Key key, this.onboardingPages, this.widgetColors})
+  const OnboardingPage({Key key, this.onboardingPages, this.appTheme})
       : super(key: key);
 
   @override
@@ -29,8 +29,8 @@ class _OnboardingPageState extends State<OnboardingPage> {
               Positioned(
                 bottom: 88,
                 child: ScrollingPageIndicator(
-                  dotColor: widget.widgetColors.dotColor,
-                  dotSelectedColor: widget.widgetColors.dotSelectedColor,
+                  dotColor: widget.appTheme.inactiveColor,
+                  dotSelectedColor: widget.appTheme.activeColor,
                   dotSize: 10,
                   dotSelectedSize: 12,
                   dotSpacing: 24,
