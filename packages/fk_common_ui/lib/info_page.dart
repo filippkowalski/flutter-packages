@@ -21,11 +21,11 @@ class InfoPage extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.only(left: 16.0, right: 16.0, top: 16.0),
-            child: Header(title),
+            child: HeaderText(title),
           ),
           Padding(
             padding: const EdgeInsets.only(left: 16.0, right: 16.0, top: 8.0),
-            child: Description(description),
+            child: DescriptionText(description),
           ),
         ],
       ),
