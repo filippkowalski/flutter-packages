@@ -1,9 +1,7 @@
 library fk_phone_utils;
 
 import 'dart:async';
-import 'dart:convert';
-import 'dart:js';
-import 'dart:typed_data';
+import 'dart:convertped_data';
 
 import 'package:contacts_service/contacts_service.dart';
 import 'package:crypto/crypto.dart';
